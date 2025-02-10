@@ -1,0 +1,3 @@
+#### Explanation
+We have n cards, each with a value, and we need to return two indices i and j (0 <= i <= j <= n - 1) such that the sum of the values of the cards from i to j is as close as possible to a target k.  
+We use a sliding window where we slide either j or i to the right based on whether the summed value is lower or higher than the target. This works because we need the contiguous interval.
