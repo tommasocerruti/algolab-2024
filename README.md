@@ -3,28 +3,26 @@
 ## Introduction to Algorithms Lab
 
 ### What is this course about?
-The objective of the course it learn how to solve algorithmic problems given by a textual, story-like description (IOI style). The topics covered are many, including dynamic programming, greedy, basic graph algorithms (MST, SP, MM, ...), flow graph algorithms, more advanced flow graph algorithms (MinCostMaxFlow, MinCut, ...), geometry, triangulations, linear programming, and more.
+The objective of the course is to learn how to solve algorithmic problems given by a textual, story-like description (IOI style). The topics covered are many, including dynamic programming, greedy, basic graph algorithms (MST, SP, MM, ...), flow graph algorithms, more advanced flow graph algorithms (MinCostMaxFlow, MinCut, ...), geometry, triangulations, linear programming, and more.
 
 More in depth:
 ![Outline](img/outline.png)
 
-
 ### How is it erogated?
-Every week there are 4 problems to be solved, plus a problem of the week (POW) that serves as a simulation to the exam.
+Every week there are 4 problems to be solved relevant to the topic introduced, plus a problem of the week (POW) that serves as a simulation to the exam. After week9 there are four weeks where problems become more challenging since they include the difficulty of finding out the most efficient algorithm to solve them ("Can greedy work? Is it DP, LP, or MaxFlow?" Sometimes it's really hard to tell!)
 
 ### What's my perspective?
 This course was very fun and interesting, it greatly boosted my problem-solving skills and my coding-interview skills have improved drastically. However, if you dont have experience in competitive programming (like me :( ), be ready to work very hard. My starting skills were very weak, so I felt like I had to put 3x effort than an 8ects course. However, this differs from person to person, and you might not feel the need to put this much time as I did.
 
 ### What will you find in this repo?
 This repo is organised as follows:
-* Solutions per Week
-* Solutions per Topic
-* General advices
-* My notes
-* Credits
+* [Solutions per Week](#solutions-per-week)
+* [Solutions per Topic](#solutions-per-topic)
+* [General advices](#general-advices)
+* [My notes](#my-notes)
+* [Credits](#credits)
 
-For each solution I have provided an explanation of my code and reasoning. 
-
+For each solution I have provided the code (under solution.cpp) and an explanation (under explanation.md) of my code and reasoning. Most of my explanations are verbose and you might not find them accurate or helpful, but they really helped me to understand better the problems, and hopefully they can help you too. I felt like in the other repos the explanations were more concise missing some details that I was not always understandings, if this case is the same for you, I think these kind of explanations can really help you to solve those doubts (but take care that they might be inaccurate). Every solution guarantees 100/100 pts.
 
 ## Solutions per Week
 
@@ -71,7 +69,6 @@ For each solution I have provided an explanation of my code and reasoning.
 | MC | [Algocoon](/src/week09/algocoon), [POW 11: Ceryneian Hind](/src/week11/ceryneian_hind) |
 
 
-
 | Abbreviation | Meaning |
 |-------------|---------|
 | DP | Dynamic Programming |
@@ -92,6 +89,7 @@ For each solution I have provided an explanation of my code and reasoning.
 | SW+ | Sliding Window + Additional Techniques |
 | MC | Min-Cut |
 
+## General advices
 
 ## My notes
 
