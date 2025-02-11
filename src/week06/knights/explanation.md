@@ -1,0 +1,7 @@
+#### Explanation
+- In a cave structured as a grid layout with m columns and n rows, we have k knights inside that want to escape. However, all the hallways (edges) fall after one knight passes, whereas the intersections (nodes) are more robust and resist to C knights.
+- We want to find how many knights will successfully exit the cave. It is easy to model this as the hallways are the edges with capacity 1 (since after one knight they fall), and the intersections are the vertices with capacity C (since after C knights they fall). Yes C capacity is weird, in the sense that an intersection can have up to 4 hallways, so yes, C > 4 is redundant. 
+- Therefore we can solve this problem using vertex capacities. Nodes 0 to n*m - 1 are the vertices with inwards edges, whereas the nodes form n*m to 2*n*m - 1 are the vertices with outward edges, these two are therefore connected with edges of capacity C.
+- You can exit the cave if you are in the first or last row or column. Therefore every time we have these conditions we increment num_exits that will be the capacity from that edge to the sink. Else we just add an edge with capacity one to the next node.
+- The trick here is to connect successfully the nodes of the outward graph to the respective neighbours!
+- Then every knight is one unit of flow and we connect it to the initial position, run max flow, and the result are the knights that escape.

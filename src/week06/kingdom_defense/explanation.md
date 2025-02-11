@@ -1,0 +1,5 @@
+#### Explanation
+In a kingdom map, each location has a demand and supply of knights, while paths between locations have both lower and upper flow limits.  
+In particular we have L locations l and P paths p, then each l with g and d (the given knights and the minimum number of knights needed) and each p with f, t, c, C (the path going from f to t has minimum flow c and maximum C).
+The only challenge here is to impose the minimum limit of the edge that is different than the usual problem. But we can solve this by using an edge with as capacity the difference between C - c, and enforce c to t by adding source to t with c, while subtracting c from f, meaning adding f to sink with c.
+We need to track the flow_needed, that is every edge capacity connected to the sink, and after calculating the flow we check if is equal to the flow needed.
