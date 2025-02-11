@@ -1,12 +1,30 @@
-Algolab 2024
+# Algolab 2024
+
+## Introduction to Algorithms Lab
+
+### What is this course about?
+The objective of the course it learn how to solve algorithmic problems given by a textual, story-like description (IOI style). The topics covered are many, including dynamic programming, greedy, basic graph algorithms (MST, SP, MM, ...), flow graph algorithms, more advanced flow graph algorithms (MinCostMaxFlow, MinCut, ...), geometry, triangulations, linear programming, and more.
+
+More in depth:
+![Outline](img/outline.png)
 
 
+### How is it erogated?
+Every week there are 4 problems to be solved, plus a problem of the week (POW) that serves as a simulation to the exam.
 
-- Introduction to the course
-* What are the topics
-* How is it done
-* My perspective
-* What you will find here
+### What's my perspective?
+This course was very fun and interesting, it greatly boosted my problem-solving skills and my coding-interview skills have improved drastically. However, if you dont have experience in competitive programming (like me :( ), be ready to work very hard. My starting skills were very weak, so I felt like I had to put 3x effort than an 8ects course. However, this differs from person to person, and you might not feel the need to put this much time as I did.
+
+### What will you find in this repo?
+This repo is organised as follows:
+* Solutions per Week
+* Solutions per Topic
+* General advices
+* My notes
+* Credits
+
+For each solution I have provided an explanation of my code and reasoning. 
+
 
 ## Solutions per Week
 
@@ -52,7 +70,36 @@ Algolab 2024
 | SW+ | [POW 4: The Iron Islands](/src/week04/iron_islands), [Rapunzel](/src/week12/rapunzel) |
 | MC | [Algocoon](/src/week09/algocoon), [POW 11: Ceryneian Hind](/src/week11/ceryneian_hind) |
 
-- My notes
 
-- Sources
 
+| Abbreviation | Meaning |
+|-------------|---------|
+| DP | Dynamic Programming |
+| SW | Sliding Window |
+| SP | Shortest Paths |
+| MST | Minimum Spanning Tree |
+| MM | Maximum Matching |
+| SCC | Strongly Connected Components |
+| GC | Geometry (Computational Geometry) |
+| GREEDY | Greedy Algorithms |
+| S. & L. | Split and List |
+| GREEDP | Greedy + Dynamic Programming |
+| MF | Maximum Flow |
+| MCMF | Minimum Cost Maximum Flow |
+| LP | Linear Programming |
+| UF | Union-Find (Disjoint Set) |
+| TRI | Triangulation |
+| SW+ | Sliding Window + Additional Techniques |
+| MC | Min-Cut |
+
+
+## My notes
+
+## Credits
+Algolab is a really challenging course, and not having official solutions for most problems is a great additional challenge. These repos are really key to quickly finding solutions for the given problems. I have personally taken help from some of them, and here below are the main sources I used. Huge thanks to everybody for putting so much effort to help students go through this challenging course.
+- **[Algolab 2023](https://github.com/lorenzo-asquini/Algolab-2023)**
+- **[Algolab 2022](https://github.com/jlscheerer/AlgoLab2022/tree/main)**
+- **[Algolab 2021](https://github.com/haeggee/algolab/tree/main)**
+- **[Algolab 2020](https://github.com/simon-hrabec/Algolab-2020)**
+
+Good luck and all the best!
