@@ -129,7 +129,7 @@ int main() {
 - [Greedy Algorithms](/nts/greedy.md)
 - [Split and List](/nts/s_and_l.md)
 - [Computational Geometry](/nts/cg.md)
-- [Proximal Algorithms](/nts/prox.md)
+- [Proximity Structures](/nts/prox.md)
 - [Linear Programming](/nts/lp.md)
 - [Graph Theory](/nts/graphs.md)
 - [Network Flow](/nts/flow.md)
