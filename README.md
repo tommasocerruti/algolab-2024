@@ -5,11 +5,11 @@
 ### What is this course about?
 The objective of the course is to learn how to solve algorithmic problems given by a textual, story-like description (IOI style). The topics covered are many, including dynamic programming, greedy, basic graph algorithms (MST, SP, MM, ...), flow graph algorithms, more advanced flow graph algorithms (MinCostMaxFlow, MinCut, ...), geometry, triangulations, linear programming, and more.
 
-More in depth:
-![Outline](img/outline.png)
-
 ### How is it erogated?
 Every week there are 4 problems to be solved relevant to the topic introduced, plus a problem of the week (POW) that serves as a simulation to the exam. After week9 there are four weeks where problems become more challenging since they include the difficulty of finding out the most efficient algorithm to solve them ("Can greedy work? Is it DP, LP, or MaxFlow?" Sometimes it's really hard to tell!)
+
+<img src="img/outline.png" alt="Outline" width="250">
+
 
 ### What's my perspective?
 This course was very fun and interesting, it greatly boosted my problem-solving skills and my coding-interview skills have improved drastically. However, if you dont have experience in competitive programming (like me :( ), be ready to work very hard. My starting skills were very weak, so I felt like I had to put 3x effort than an 8ects course. However, this differs from person to person, and you might not feel the need to put this much time as I did.
