@@ -19,7 +19,7 @@
 ---
 
 ## Introduction
-This repository contains my personal solutions and explanations for the **Introduction to Algorithms Lab (Algolab 2024)**. The course is taught in a style similar to the International Olympiad in Informatics (IOI), focusing on solving algorithmic problems from textual and story-like descriptions. 
+This repository contains my personal solutions and explanations for the **Algorithms Lab (Algolab 2024)**. The course is taught in a style similar to the International Olympiad in Informatics (IOI), focusing on solving algorithmic problems from textual and story-like descriptions. 
 
 ---
 
@@ -29,7 +29,7 @@ The main objective of the course is to learn how to solve algorithmic problems t
 - **Greedy Algorithms**
 - **Basic Graph Algorithms** (MST, Shortest Path, Matching, etc.)
 - **Flow Graph Algorithms** (MaxFlow, MinCut, MinCostMaxFlow, etc.)
-- **Geometry** (Triangulations, advanced computational geometry)
+- **Geometry** (Delaunay triangulations, advanced computational geometry)
 - **Linear Programming (LP)**
 - and more!
 
@@ -61,11 +61,11 @@ Over time, the level of difficulty ramps up—toward the end, you must determine
 ## What Will You Find in This Repo?
 1. **Solutions per Week**: Organized by weekly assignments, including the POW.  
 2. **Solutions per Topic**: Organized by theme (DP, MST, Flow, etc.).  
-3. **General Advices**: Tips, hints, and best practices for tackling problems and structuring your code.  
+3. **General Advices**: Tips for tackling problems and structuring your code.  
 4. **My Notes**: Personal takes on topics like DP, geometry, network flow, etc.  
 
 For each solution, there is:
-- **`solution.cpp`**: The fully working code that typically scores 100/100 points.  
+- **`solution.cpp`**: The fully working code always scoring 100/100 points.  
 - **`explanation.md`**: A verbose explanation of my reasoning and approach.
 
 ---
@@ -146,13 +146,13 @@ For each solution, there is:
    Each weekly POW is a great way to simulate the exam. Work on your time management and get comfortable with partial points.
 
 3. **Get Familiar with BGL and CGAL**  
-   They may look intimidating initially, but you have code snippets and partial documentation. Make sure you know how to read official docs for extra features not covered in the snippets.
+   They may look intimidating initially, but you have code snippets and the full documentation available at the exam. Make sure you know how to read official docs for extra features not covered in the snippets.
 
 4. **Partial Points**  
    Don’t be afraid to go for partial solutions. Some test sets are easier and can give you a good chunk of points even if you don’t have the complete solution.
 
 5. **Explore Additional Repositories**  
-   If you finish early, there are many repos of previous years containing extra practice problems (however due to the high volume of exercises it's likely you will not have the time to do them).
+   If you finish early, there are many repos of previous years containing extra practice problems (however due to the high volume of the exercises it's likely you will not have the time to do them).
 
 ---
 
@@ -182,18 +182,17 @@ g++ -std=c++17 solution.cpp -o dominoes
 ./dominoes < input.txt
 ```
 
-- Make sure you have installed any **Boost** libraries if needed (for BGL).  
-- For **CGAL** (used in geometry problems), ensure it’s correctly installed on your system.
+Make sure you have installed **BGL** and **CGAL** correctly installed on your system.
 
 ---
 
 ## Disclaimer on Problem Statements
-We are **not** allowed to share the official problem statements for each exercise. Therefore, the texts are not included in this repository. The solutions here refer to those statements, but we often include a quick summary or personal interpretation. If you want to solve these problems independently, please see the official course materials or other official references.
+We are **not** allowed to share the official problem statements for each exercise. Therefore, the texts are not included in this repository. The solutions here refer to those statements, but I often included a quick summary or personal interpretation. If you want to solve these problems independently, please see the official course materials or other official references.
 
 ---
 
 ## Credits
-**Algolab** is a challenging course without always providing official solutions. The following repositories (and their authors) helped me a lot by giving guidance, hints, or alternative approaches:
+**Algolab** is a challenging course without always providing official solutions. The following repositories (and their authors) helped me a lot to come up with these solutions:
 
 - [Algolab 2023](https://github.com/lorenzo-asquini/Algolab-2023)  
 - [Algolab 2022](https://github.com/jlscheerer/AlgoLab2022/tree/main)  
