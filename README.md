@@ -64,7 +64,7 @@ Over time, the level of difficulty ramps up—toward the end, you must determine
 3. **General Advices**: Tips for tackling problems and structuring your code.  
 4. **My Notes**: Personal takes on topics like DP, geometry, network flow, etc.  
 
-For each solution, there is:
+For each problem, there is:
 - **`solution.cpp`**: The fully working code always scoring 100/100 points.  
 - **`explanation.md`**: A verbose explanation of my reasoning and approach.
 
