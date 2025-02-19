@@ -206,6 +206,9 @@ A huge thanks to them for sharing their work!
 ## License
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
----
-
-**Enjoy this fun course and Good Luck! (you will need it)**
+---  
+   
+**Enjoy this fun course and Good Luck!**    
+Whatever your starting point, you can do it. 
+<img src="img/slope_vs_y-intercept.png" alt="Outline" width="250">      
+-- Prof. John Ousterhout, Stanford University
